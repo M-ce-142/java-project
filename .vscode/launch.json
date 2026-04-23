@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run JavaFX",
+      "request": "launch",
+      "mainClass": "CO4_33",
+      "vmArgs": "--module-path \"C:/Users/admin/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls"
+    }
+  ]
+}
