@@ -1,26 +1,21 @@
 public class CO2_6 {
 
-    // Data fields
     double width = 1;
     double height = 1;
 
-    // No-argument constructor
     CO2_6() {
         // default values already set
     }
 
-    // Parameterized constructor
     CO2_6(double width, double height) {
         this.width = width;
         this.height = height;
     }
 
-    // Method to calculate area
     double getArea() {
         return width * height;
     }
 
-    // Method to calculate perimeter
     double getPerimeter() {
         return 2 * (width + height);
     }
